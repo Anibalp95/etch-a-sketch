@@ -14,11 +14,25 @@
             <strong>ETCH-A-SKETCH!</strong>
         </h2>
     </div>
-    <button onclick="setGridSize()">
-        Set size
-    </button>
+    <div>
+        <button onclick="setGridSize()">
+            Set size
+        </button>
+        <button onclick="setBaseColor()">
+            Set base color
+        </button>
+        <button onclick="setHoverColor()">
+            Set hover color
+        </button>
+    </div>
+    <div class="options">
+        <label>Randomize Color</label>
+        <input id="randomize-checkbox" type="checkbox">
+        <label>Whitening</label>
+        <input id="darkening-checkbox" type="checkbox">
+    </div>
     <div id="content">
-        
+
     </div>
     <script src="index.js"></script>
 </body>
