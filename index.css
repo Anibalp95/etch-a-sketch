@@ -16,8 +16,6 @@
 }
 
 .square {
-    border: solid;
-    border-width: 1px;
     background-color: red;
 }
 

@@ -1,4 +1,4 @@
-const MAX_WIDTH_IN_PX = 960;
+const MAX_WIDTH_IN_PX = 720;
 
 const contentDiv = document.getElementById("content");
 
