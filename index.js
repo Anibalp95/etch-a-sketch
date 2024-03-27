@@ -27,6 +27,9 @@ const makeGrid = (squares) => {
             square.id = "square-" + i + "-" + j;
             square.style.width = (MAX_WIDTH_IN_PX / squares) + "px";
             square.style.height = (MAX_WIDTH_IN_PX / squares) + "px";
+            square.addEventListener("mouseover", () => {
+                square.style.backgroundColor = "white";
+            })
             row.appendChild(square);
         }
         gridContainer.append(row);
