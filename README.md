@@ -1,1 +1,1 @@
-First commit
+Odin project assignment js basics: Etch a sketch
